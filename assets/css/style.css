@@ -90,7 +90,11 @@
         border-left: 1px solid #efefef;
     }
     
-    nav a:first-child {}
+    nav a:first-child {
+        margin-left: 0px;
+        padding-left: 0px;
+        border: 0px;
+    }
     /* footer */
     
     footer {
@@ -247,6 +251,7 @@
             margin-right: 40px;
         }
         .sidebar {
+            margin-left: 150px;
             float: left;
         }
         .work {
@@ -260,6 +265,9 @@
     @media screen and (max-width: 768px) {
         #masthead {
             padding: 0px 0px 0px 20px;
+        }
+        nav {
+            margin-right: 20px;
         }
         .auth-image {
             float: left;
@@ -278,6 +286,9 @@
         }
         .work {
             max-width: 310px;
+            width: 100%;
+        }
+        footer {
             width: 100%;
         }
     }
@@ -306,7 +317,7 @@
             border-left: 1px solid #efefef;
         }
         nav a:first-child {
-            margin-left: 25px;
+            margin-left: 50px;
         }
         .auth-image {
             float: left;
@@ -360,7 +371,7 @@
         }
         nav a:first-child {
             border-left: 0px solid #efefef;
-            margin-left: 0px;
+            margin-left: 20px;
         }
         .auth-image {
             float: left;
